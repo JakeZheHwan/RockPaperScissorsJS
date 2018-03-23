@@ -1,0 +1,73 @@
+
+.header {
+
+	background: #66ccff;
+	color: white;
+	border:5px ridge #3769ba;
+	height:40px;
+	margin:5px;
+	text-align: center;
+	font-size:30px;
+	padding: 15px 20px;
+
+}
+
+.body {
+
+	text-align: center;
+	background: #4b5993;
+	color:white;
+
+}
+
+.image {
+	border: 2px solid white;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.image:active {
+  transform: translateY(4px);
+}
+
+#resulttable {
+
+	border: 5px solid white;
+	color: white;
+	position: center;
+	margin-top: 10px;
+	margin-left:500px;
+	margin-right: 500px; 
+	border-radius: 4px;
+	padding: 5px 20px;
+	position: relative;
+
+}
+
+.badge {
+	background: red;
+	font-size: 25px;
+	padding: 5px;
+}
+
+#userlabel {
+	position: absolute;
+	top: 70px;
+	left: -25px;
+
+}
+
+#computerlabel {
+	position: absolute;
+	top: 70px;
+	right: -50px;
+
+}
+
+.score {
+	font-size: 40px;
+}
+
+.otherfont {
+	font-size: 25px;
+}

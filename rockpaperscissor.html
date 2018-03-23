@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="app.js"></script>
+
+	<title>Rock Paper Scissors</title>
+
+	<header class="header">Rock Paper Scissors</header>
+</head>
+
+<body class="body">
+
+<div id="resulttable"><h2>Result</h2>
+<label id="userlabel" class="badge">User</label>
+<div><span id="userscore" class="score">0</span>:<span id="aiscore" class="score">0</span></div>
+<label id="computerlabel" class="badge">Computer</label>
+</div>
+
+<div>
+<p class="otherfont">What is your choice?</p>
+<!-- <button id="rock" 		onclick="calculate(id)">Rock</button>
+<button id="paper" 		onclick="calculate(id)">Paper</button>
+<button id="scissors" 		onclick="calculate(id)">Scissors</button> -->
+
+<img src="image/rock.png" id="rock" class="image" 		onclick="calculate(id)">
+<img src="image/paper.png" id="paper" class="image" 		onclick="calculate(id)">
+<img src="image/scissors.png" id="scissors" class="image" 		onclick="calculate(id)">
+
+</div>
+
+<div class="otherfont"> Computer play:
+<span id="img"></span>
+<span id="aioutput"></span>
+</div>
+
+<div class="otherfont"> Result:
+<span id="resultstatement"></span>
+</div>
+
+
+</body>
+
+</html>
